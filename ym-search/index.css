@@ -1,0 +1,149 @@
+.ym-search-area-wrap {
+    height: 52px;
+    position: relative;
+}
+.ym-search-area-wrap.show-result {
+    height: auto;
+}
+
+.ym-search-area {
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    padding: 10px 180px 0 10px;
+    position: absolute;
+    z-index: 10;
+    left: 0;
+    top: 0;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    border: 1px solid #eaeaea;
+    background-color: #fff;
+    font-size: 12px;
+    color: #666;
+    overflow: hidden;
+}
+
+.ym-search-area .ym-label {
+    padding-right: 10px;
+    line-height: 32px;
+    display: block;
+    width: 72px;
+    text-align: right;
+}
+
+.ym-search-area label {
+    margin-bottom: 0;
+}
+
+.ym-search-area input {
+    margin-bottom: 0;
+    width: 220px;
+    border-color: #D4D8E7;
+}
+
+/* .ym-search-area .el-date-editor.el-range-editor.el-input__inner.el-date-editor--daterange {
+    height: 32px;
+    line-height: 32px;
+} */
+
+.ym-search-area .el-date-editor .el-range__icon,
+.ym-search-area .el-date-editor .el-range-separator {
+    line-height: 24px;
+    font-size: 12px;
+}
+.ym-search-area  .el-date-editor .el-range__close-icon {
+    line-height: 24px;
+}
+.ym-search-area .el-radio {
+    margin-right: 10px;
+}
+.ym-search-area>div {
+    margin-bottom: 10px;
+    margin-right: 20px;
+    display: flex;
+    align-items: center;
+    min-width: 270px;
+}
+
+.ym-search-area .ym-search-btn-area {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    min-width: auto !important;
+    margin: 0;
+    transition: all .3s;
+}
+.ym-search-area .ym-search-btn-area.hide {
+    right: -180px;
+}
+
+.ym-search-area .ym-search-btn-area .el-button {
+    margin-left: 10px;
+}
+.ym-search-area .ym-high-btn-area {
+    width: 100%;
+    justify-content: center;
+    margin: 0;
+    padding: 10px 0;
+    position: relative;
+}
+.ym-high-btn-area .ym-slide-up {
+    position: absolute;
+    right: -140px;
+    cursor: pointer;
+}
+.ym-high-btn-area .ym-slide-up i {
+    font-size: 18px;
+}
+.ym-search-result {
+    box-sizing: border-box;
+    padding: 4px 40px 4px 18px;
+    background: #ECF6FD;
+    border: 1px solid #9dd7ee;
+    color: #333;
+    font-size: 12px;
+    line-height: 25px;
+}
+.ym-search-result .flex-item {
+    margin-right: 20px;
+}
+.ym-search-result .results-options {
+    color: #666;
+    position: absolute;
+    right: 20px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.ym-search-area .el-date-editor.el-range-editor.el-input__inner.el-date-editor--daterange {
+    width: 220px;
+}
+.ym-search-area  .el-date-editor input.el-range-input {
+    font-size: 12px;
+}
+.ym-table-top {
+    height: 20px;
+    font-size: 12px;
+    position: relative;
+    line-height: 20px;
+    margin-bottom: 10px;
+}
+.ym-table-func {
+    display: flex;
+    position: absolute;
+    right: 10px;
+    top: 0;
+}
+.ym-table-func> div:hover {
+    color: #28AEE2;
+}
+.ym-table-func > div {
+    margin-left: 20px;
+    cursor: pointer;
+    font-size: 14px;
+}
+.ym-table-func > div span {
+    margin-right: 0;
+}
